@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Farid</title>
+  </head>
+
+  <body>
+    <nav>
+      <h2>
+        <span class="material-symbols-outlined"> auto_awesome </span> Farid
+        ADINANI
+      </h2>
+
+      <ul>
+        <li>
+          <a href="mailto:farid.adinani@hotmail.com">farid.adinani@hotmail.com
+          <span class="material-symbols-outlined"> north_east </span></a>
+        </li>
+        <!-- onclick: Attribut HTML qui permet de mettre du JS, ici on appelle la fonction crée sur la page JS-->
+        <li id="dark-light-mode" onclick="changeDarkMode()">🌑</li>
+      </ul>
+    </nav>
+
+    <header>
+      <div class="header-left">
+        <small
+          ><span class="material-symbols-outlined"> location_on </span>
+          Asnières-sur-seine
+        </small>
+
+        <h1>
+          Bonjour, <br />
+          Je suis <span id="name">Farid ADINANI</span>.
+        </h1>
+
+        <div class="links">
+          <a href="./CV__FARID_ADINANI_Dev.pdf" download=""
+            >CV <span class="material-symbols-outlined"> north_east </span>
+          </a>
+
+          <a href="https://github.com/FaridJx"
+            >Git Hub <span class="material-symbols-outlined"> north_east </span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/farid-adinani-124093252/"
+            >LinkedIn
+            <span class="material-symbols-outlined"> north_east </span>
+          </a>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <img src="assets/Pdp.jpg" alt="pdp" />
+      </div>
+    </header>
+
+    <section class="a-propos">
+        <h4 class="onglet1">À propos de moi</h4>
+      <p>
+        En reconversion professionel, j'ai décidé de me lancé dans l'aventure passionnante du monde du développement web. Avant cela, j'ai travaillé dans la restauration rapide, dans la grande distribution et aussi en tant que vendeur. Aujourd'hui mon objectif est d'acquérir de nouvelle compétence et évoluer afin de devenir un super développeur. <br /><br />
+      </p>
+    </section>
+
+    <section class="projets">
+        <h4 class="onglet2">Projets</h4>
+        <div class="all_cards">
+          <div class="projet-card">
+            <div class="cardImg">
+             <a href="https://mymoviz-frontend-nine-kappa.vercel.app/" target="_blank"><img class="img-project" src="./assets/MyMoviz.png" alt="projet-HTML" /></a> 
+            </div>
+            <div class="cardDesc">
+              <div>
+
+                <h2>My Moviz</h2>
+                <p>
+                  Pour ce projet, j'ai utilisé un webservice qui m'a permis de récupérer les derniers films sortis au cinéma.
+                </p>
+              </div>
+              <div class="stackList">
+                <ul>
+                  <li><img src="./assets/JavaScript_logo.png" alt=""></li>
+                  <li><img src="./assets/reactlogo.png" alt=""></li>
+                  <li><img src="./assets/next-js.png" alt=""></li>
+                  <li><img src="./assets/nodejs.png" alt=""></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="projet-card">
+            <div class="cardImg">
+              <a href="https://morningnews-frontend-topaz.vercel.app/" target="_blank"><img class="img-project" src="./assets/MorningNews.png" alt="projet-meteo" /></a> 
+            </div>
+            <div class="cardDesc">
+              <div>
+                <h2>Morning News</h2>
+                <p>
+                  Ici, j'ai utilisé un webservice pour récupérer les derniers articles d'un magasine.
+                </p>
+              </div>
+              <div class="stackList">
+                <ul>
+                  <li><img src="./assets/JavaScript_logo.png" alt=""></li>
+                  <li><img src="./assets/reactlogo.png" alt=""></li>
+                  <li><img src="./assets/next-js.png" alt=""></li>
+                  <li><img src="./assets/nodejs.png" alt=""></li>
+                  <li><img src="./assets/mongodb.png" alt=""></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="projet-card">
+            <div class="cardImg">
+              <a href="https://onepage-sigma.vercel.app/" target="_blank"><img class="img-project" src="./assets/VANation.png" alt="projet-meteo" /></a> 
+            </div>
+            <div class="cardDesc">
+              <div>
+
+                <h2>V.A Nation</h2>
+                <p>
+                  Petite One Page réalisé avec React/Next.js.
+                </p>
+              </div>
+              <div class="stackList">
+                <ul>
+                  <li><img src="./assets/JavaScript_logo.png" alt=""></li>
+                  <li><img src="./assets/reactlogo.png" alt=""></li>
+                  <li><img src="./assets/next-js.png" alt=""></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <footer>
+      <h3>
+        <span class="material-symbols-outlined"> auto_awesome </span>Farid
+        ADINANI
+      </h3>
+      <p>&copy; Farid Adinani</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
