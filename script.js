@@ -11,7 +11,7 @@ function changeDarkMode() {
         document.documentElement.style.setProperty("--background-color","#efe7e5");
         let colorCard = document.querySelectorAll('.projet-card')
         for(let i = 0; i < colorCard.length; i++){
-            colorCard[i].style.backgroundColor = "#d4a4a4ef"
+            colorCard[i].style.backgroundColor = "#e1c8c8ef"
         }
         document.getElementById("dark-light-mode").innerHTML = "🌑";
     } else {
